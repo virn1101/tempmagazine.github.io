@@ -1,4 +1,4 @@
-const math = {
+/*const math = {
   lerp: (a, b, n) => {
     return (1 - n) * a + n * b;
   },
@@ -136,7 +136,7 @@ class Smooth {
 
 new Smooth();
 
-
+*/
 
   function opageRedirect() {
    // window.location.replace("./preview/index.html");
@@ -148,5 +148,16 @@ new Smooth();
       // window.location.replace("./preview/index.html");
       window.open("./preview/pdf/synapse2020.pdf");
        }
-    
-   
+ /*   
+   $(document).ready(function(){
+    $('#lbok1').on('click touchstart', function(){
+      window.open("./preview/index.html");
+      alert("hello");
+    });
+
+$('#rbok1').on('click touchstart', function(){
+  window.open("./preview/pdf/synapse2020.pdf");
+  alert("hai");
+});
+   });
+   */
