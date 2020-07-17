@@ -1,7 +1,8 @@
 .pieces-slider {
 	position: relative;
 	text-align: center;
-	padding: 8rem 0;
+	padding:0;
+	margin: 20% auto;
 }
 
 .pieces-slider {
@@ -35,7 +36,7 @@
 .pieces-slider__canvas {
 	position: relative;
 	width: 100vw;
-	height: 100vh;
+	height: 50vh;
 	transition: 0.2s opacity;
 }
 

@@ -49,28 +49,6 @@ a {
 	vertical-align: top;
 }
 
-/* ///////////////////////////////////////////////////
-
-HARDCOVER
-Table of Contents
-
-1. container
-2. background & color
-3. opening cover, back cover and pages
-4. position, transform y transition
-5. events
-6. Bonus
-	- Cover design
-	- Ribbon
-	- Figcaption
-7. mini-reset
-
-/////////////////////////////////////////////////////*/
-
-/*
-	1. container
-*/
-
 .book {
 	position: relative;
 	width: 5px; 
@@ -685,7 +663,47 @@ figcaption p {
 	height: 402px;
 }
 
+.bookcont{
+	display: block;
+	margin: 0;
+	width: 100%;
+	padding: 0;
+	text-align: center;
+	}
+	
+	.bookcont .bookcontainer{
+	display: inline-block;
+   width: 30%;
+	text-align: center;
+	margin: 70px;
+	}
+  
+	@media screen and (max-width:960px){
+	  .bookcont .bookcontainer{
+	   width: 50%;
+	  }
+	}
+	
+	@media screen and (max-width:570px){
+	  .bookcont .bookcontainer{
+	   width: 70%;
+	   margin-left: -100px;
+	  }
+	}
 
+	@media screen and (max-width:850px){
+		.button1,.button2{
+		 margin-top: 350px;
+		}
+	  }
+
+/*	  @media screen and (max-width:570px){
+		.bookcont{
+		 margin-left: -100px;
+		}
+	  }
+*/
+/*
 @media screen and (max-width:1150px) {
     .hardcover_front, .hardcover_back, .page ,.book_spine{
 		height:400px;
@@ -702,9 +720,7 @@ figcaption p {
 .align{
 	margin-right: 500px;
 }
-.bookcont{
-height:1100px;
-}
+
 #rbok{
 	margin-left: 230px;
 }
@@ -738,3 +754,5 @@ height:1100px;
 			margin-left: 40px;
 		}
 		}
+
+		*/
