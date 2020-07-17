@@ -1,0 +1,28 @@
+
+   #ball {
+     z-index:1000;
+     position:fixed;
+     /*background-color: green;*/
+     width: 20px;
+     height: 20px;
+     margin:auto;
+     top:0;
+     left:0;
+     bottom:0;
+     right:0;
+     /*
+     border-radius: 20px;
+     -moz-border-radius: 20px;
+     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+     -moz-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+     -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+     background-image: -moz-linear-gradient(top, rgba(255, 255, 255, .5), rgba(255, 255, 255, 0) 12px);
+     background-image: -webkit-gradient(linear, 0 0, 0 12, from(rgba(255, 255, 255, .5)), to(rgba(255, 255, 255, 0)));*/
+     background-image: url("img1/updown.png");
+   }
+
+#ud{
+  width:50px;
+  height:50px;
+  
+}

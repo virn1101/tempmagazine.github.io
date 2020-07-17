@@ -1,0 +1,15 @@
+
+#canvascont{
+  position: fixed;
+/*  position: absolute; 
+  top: 0;
+  left: 0;*/
+ /* z-index: -10;*/
+ /* background-color: blanchedalmond;*/
+ /* background: linear-gradient(#25364f, #4d71a5, #9bc4ff);*/
+}
+#canvascontainer  {
+  position: fixed;
+ /* position: absolute;
+background-color: coral;*/
+}
